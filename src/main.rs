@@ -16,8 +16,7 @@ use std::vec::Vec;
 pub use dmarcreport::*;
 pub mod dmarcreport;
 
-use records::PrintableData;
-use records::WeeklyRecord;
+use records::*;
 pub mod records;
 
 fn main() -> std::io::Result<()> {
